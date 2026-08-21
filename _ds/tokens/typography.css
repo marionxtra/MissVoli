@@ -1,0 +1,42 @@
+:root{
+--font-display:'Fredoka','Trebuchet MS',sans-serif;
+--font-body:'DM Sans','Helvetica Neue',Arial,sans-serif;
+
+--fw-display-regular:400; /* @kind font */
+--fw-display-medium:500; /* @kind font */
+--fw-display-semibold:600; /* @kind font */
+--fw-display-bold:700; /* @kind font */
+--fw-body-regular:400; /* @kind font */
+--fw-body-medium:500; /* @kind font */
+--fw-body-bold:700; /* @kind font */
+
+--fs-display-2xl:64px;
+--fs-display-xl:48px;
+--fs-display-lg:32px;
+--fs-display-md:24px;
+--fs-display-sm:20px;
+--fs-body-lg:19px;
+--fs-body-md:16px;
+--fs-body-sm:14px;
+--fs-caption:13px;
+--fs-eyebrow:12px;
+
+--lh-display:1.1; /* @kind font */
+--lh-display-lg:1.2; /* @kind font */
+--lh-body:1.6; /* @kind font */
+--lh-tight:1.35; /* @kind font */
+
+--ls-display:-0.01em; /* @kind font */
+--ls-eyebrow:0.14em; /* @kind font */
+--ls-body:0em; /* @kind font */
+
+--text-display-2xl:var(--fw-display-bold) var(--fs-display-2xl)/var(--lh-display) var(--font-display);
+--text-display-xl:var(--fw-display-bold) var(--fs-display-xl)/var(--lh-display) var(--font-display);
+--text-display-lg:var(--fw-display-semibold) var(--fs-display-lg)/var(--lh-display-lg) var(--font-display);
+--text-display-md:var(--fw-display-semibold) var(--fs-display-md)/var(--lh-display-lg) var(--font-display);
+--text-display-sm:var(--fw-display-semibold) var(--fs-display-sm)/var(--lh-tight) var(--font-display);
+--text-body-lg:var(--fw-body-regular) var(--fs-body-lg)/var(--lh-body) var(--font-body);
+--text-body-md:var(--fw-body-regular) var(--fs-body-md)/var(--lh-body) var(--font-body);
+--text-body-sm:var(--fw-body-regular) var(--fs-body-sm)/var(--lh-body) var(--font-body);
+--text-eyebrow:var(--fw-body-bold) var(--fs-eyebrow)/1.4 var(--font-body);
+}
