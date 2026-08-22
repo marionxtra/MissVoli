@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "https://www.missvoli.com/*"
+  to = "https://missvoli.com/:splat"
+  status = 301
+  force = true

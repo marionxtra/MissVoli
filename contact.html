@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Miss Voli, coach d'anglais à Lyon</title>
+<meta name="description" content="Réservez une séance d'essai ou posez votre question. Réponse sous 24 h, aucun engagement, aucun démarchage.">
+<link rel="canonical" href="https://missvoli.com/contact">
+<meta property="og:title" content="Contact — Miss Voli, coach d'anglais à Lyon">
+<meta property="og:description" content="Réservez une séance d'essai ou posez votre question. Réponse sous 24 h.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://missvoli.com/contact">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="mv-header">
+  <div class="mv-header__inner">
+    <a href="index.html" class="mv-logo" aria-label="Miss Voli, accueil">
+      <img src="img/pins/miss-voli.png" alt="" width="36" height="36">
+      <span>Miss Voli</span>
+    </a>
+    <nav class="mv-nav" id="mv-nav" aria-label="Navigation principale">
+      <a href="cours-en-groupe.html">Cours en groupe</a>
+      <a href="cours-particuliers.html">Cours particuliers</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="mv-header__actions">
+      <a href="contact.html" class="mv-btn mv-btn--primary mv-btn--sm">Réserver une séance d'essai</a>
+      <button class="mv-burger" id="mv-burger" aria-expanded="false" aria-controls="mv-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <span class="mv-eyebrow">Contact</span>
+    <h1>Écrivez-moi</h1>
+    <p class="mv-lede" style="max-width:none">Réservez une séance d'essai ou posez votre question. Je réponds sous 24 h.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container mv-grid-2" style="align-items:start">
+    <div>
+      <div id="mv-envoi-banner" class="mv-banner" hidden></div>
+      <div class="mv-card">
+        <form id="mv-contact-form" name="contact" method="post" action="/contact.html?envoi=ok" data-netlify="true" netlify-honeypot="website" novalidate>
+  <input type="hidden" name="form-name" value="contact">
+
+          <div class="mv-form-step">
+            <h3>Je souhaite</h3>
+            <div class="mv-radio-cards">
+              <input type="radio" id="i-essai" name="intention" value="essai" checked>
+              <label for="i-essai">Réserver une séance d'essai</label>
+              <input type="radio" id="i-question" name="intention" value="question">
+              <label for="i-question">Poser une question</label>
+            </div>
+          </div>
+
+          <div class="mv-form-step">
+            <h3>C'est pour</h3>
+            <div class="mv-radio-cards mv-radio-cards--5 mv-radio-cards--service">
+              <input type="radio" id="p-groupe" name="pour" value="groupe">
+              <label for="p-groupe"><img src="img/pins/dialogues.png" alt="">Un groupe de conversation</label>
+              <input type="radio" id="p-particuliers" name="pour" value="particuliers">
+              <label for="p-particuliers"><img src="img/pins/travail.png" alt="">Des cours particuliers</label>
+              <input type="radio" id="p-enfant" name="pour" value="enfant">
+              <label for="p-enfant"><img src="img/pins/sessions.png" alt="">Mon enfant, au collège ou au lycée</label>
+              <input type="radio" id="p-entreprise" name="pour" value="entreprise">
+              <label for="p-entreprise"><img src="img/pins/en-ligne.png" alt="">Mon entreprise</label>
+              <input type="radio" id="p-indecis" name="pour" value="indecis">
+              <label for="p-indecis"><img src="img/pins/fearless.png" alt="">Je ne sais pas encore</label>
+            </div>
+          </div>
+
+          <div id="cond-groupe" class="mv-conditional mv-form-step">
+            <h3>Quel groupe ?</h3>
+            <div class="mv-radio-cards">
+              <input type="radio" id="g-talk" name="groupe" value="english-talk">
+              <label for="g-talk">English Talk — niveau B1-B2</label>
+              <input type="radio" id="g-basics" name="groupe" value="back-to-basics">
+              <label for="g-basics">Back to Basics — niveau débutant</label>
+              <input type="radio" id="g-idk" name="groupe" value="je-ne-sais-pas">
+              <label for="g-idk">Je ne sais pas, aidez-moi à me situer</label>
+            </div>
+          </div>
+
+          <div id="cond-particuliers" class="mv-conditional mv-form-step">
+            <h3>Votre objectif ?</h3>
+            <div class="mv-radio-cards">
+              <input type="radio" id="o-voyage" name="objectif" value="voyage">
+              <label for="o-voyage">Un voyage ou un départ à l'étranger</label>
+              <input type="radio" id="o-examen" name="objectif" value="examen">
+              <label for="o-examen">Un examen (TOEIC, TOEFL, IELTS, Cambridge)</label>
+              <input type="radio" id="o-travail" name="objectif" value="travail">
+              <label for="o-travail">Mon travail</label>
+              <input type="radio" id="o-niveau" name="objectif" value="niveau">
+              <label for="o-niveau">Une remise à niveau générale</label>
+              <input type="radio" id="o-autre" name="objectif" value="autre">
+              <label for="o-autre">Autre</label>
+            </div>
+          </div>
+
+          <div id="cond-enfant" class="mv-conditional mv-form-step">
+            <h3>Sa classe ?</h3>
+            <div class="mv-radio-cards">
+              <input type="radio" id="c-college" name="classe" value="college">
+              <label for="c-college">Collège (6e à 3e)</label>
+              <input type="radio" id="c-lycee" name="classe" value="lycee">
+              <label for="c-lycee">Lycée (2nde à Terminale)</label>
+            </div>
+          </div>
+
+          <div id="cond-entreprise" class="mv-conditional mv-form-step">
+            <h3>Votre entreprise</h3>
+            <div class="mv-field">
+              <label for="societe">Nom de la société *</label>
+              <input type="text" id="societe" name="societe">
+            </div>
+            <h3>Combien de personnes à former ?</h3>
+            <div class="mv-radio-cards">
+              <input type="radio" id="e-1-3" name="effectif" value="1-3">
+              <label for="e-1-3">1 à 3</label>
+              <input type="radio" id="e-4-10" name="effectif" value="4-10">
+              <label for="e-4-10">4 à 10</label>
+              <input type="radio" id="e-plus10" name="effectif" value="plus-10">
+              <label for="e-plus10">Plus de 10</label>
+            </div>
+          </div>
+
+          <div class="mv-form-step">
+            <h3>Vos coordonnées</h3>
+            <div class="mv-field">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" autocomplete="given-name" required>
+              <p class="mv-field-error">Merci d'indiquer votre prénom.</p>
+            </div>
+            <div class="mv-field">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <p class="mv-field-error">Merci d'indiquer une adresse e-mail valide.</p>
+            </div>
+            <div class="mv-field">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" autocomplete="tel">
+              <p class="mv-field-hint">Pour vous répondre plus vite, par téléphone ou sur WhatsApp.</p>
+            </div>
+            <div class="mv-field">
+              <label for="message">Votre message</label>
+              <textarea id="message" name="message" rows="3" placeholder="Dites-moi où vous en êtes, en deux phrases."></textarea>
+            </div>
+            <div class="mv-field">
+              <label class="mv-checkbox"><input type="checkbox" name="consentement" required>J'accepte que mes informations soient utilisées pour répondre à ma demande. <a href="confidentialite.html">En savoir plus</a>.</label>
+              <p class="mv-field-error">Merci de valider cette case pour continuer.</p>
+            </div>
+            <div class="mv-honeypot"><label for="website">Site web</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
+          </div>
+
+          <button type="submit" id="mv-submit" class="mv-btn mv-btn--primary mv-btn--full" style="min-height:52px">Réserver ma séance d'essai</button>
+          <p class="mv-form-sub">Réponse sous 24 h. Aucun engagement, aucun démarchage.</p>
+        </form>
+      </div>
+    </div>
+
+    <div style="position:sticky;top:24px;align-self:start">
+      <div class="mv-card mv-card--cream">
+        <h3>Autres moyens de contact</h3>
+        <div class="mv-contact-methods">
+          <a href="tel:+33762264963" class="mv-btn mv-btn--secondary">07 62 26 49 63</a>
+          <a href="https://wa.me/33762264963" target="_blank" rel="noopener" class="mv-btn mv-btn--secondary">WhatsApp</a>
+          <a href="mailto:hello@missvoli.com" class="mv-btn mv-btn--secondary">hello@missvoli.com</a>
+        </div>
+      </div>
+
+      <div class="mv-card" style="margin-top:24px">
+        <h3>Ce qui se passe ensuite</h3>
+        <ol class="mv-steps" style="margin-top:16px">
+          <li class="mv-step"><span class="mv-step__num">1</span>Je vous réponds sous 24 h.</li>
+          <li class="mv-step"><span class="mv-step__num">2</span>On échange dix minutes pour situer votre niveau et votre objectif.</li>
+          <li class="mv-step"><span class="mv-step__num">3</span>Vous venez essayer une séance.</li>
+          <li class="mv-step"><span class="mv-step__num">4</span>On décide de la suite ensemble.</li>
+        </ol>
+      </div>
+      <div class="mv-card mv-card--ink" style="margin-top:24px;text-align:center">
+        <h3 style="color:var(--creme)">Mistakes welcome.</h3>
+        <p style="color:rgba(251,242,223,.85);margin:0">Les erreurs sont les bienvenues.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="mv-footer">
+  <div class="mv-footer__inner container">
+    <div class="mv-footer__col">
+      <div class="mv-logo mv-logo--white"><img src="img/pins/miss-voli.png" width="32" height="32" alt=""><span>Miss Voli</span></div>
+      <p style="font-size:15px;display:flex;align-items:center;gap:6px"><img src="img/pins/lyon.png" alt="" width="28" height="28">Coach d'anglais certifiée TEFL à Lyon et en visio</p>
+    </div>
+    <div class="mv-footer__col">
+      <h4>Cours</h4>
+      <a href="cours-en-groupe.html">Cours en groupe</a>
+      <a href="cours-particuliers.html">Cours particuliers</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="ados.html">Collégiens et lycéens</a>
+      <a href="a-propos.html">À propos</a>
+    </div>
+    <div class="mv-footer__col">
+      <h4>Contact</h4>
+      <a href="mailto:hello@missvoli.com">hello@missvoli.com</a>
+      <a href="tel:+33762264963">07 62 26 49 63</a>
+  
+  </div>    <div class="mv-footer__col">
+      <h4>Ce que je propose</h4>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/dialogues.png" alt="" width="28" height="28">Des cours vivants, pratiques et efficaces</p>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/cinema.png" alt="" width="28" height="28">Pop culture, conversations et situations réelles</p>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/globe-trotter.png" alt="" width="28" height="28">Pour voyageurs, étudiants et professionnels</p>
+    </div>
+  </div>
+  <div class="mv-footer__bottom container">
+    <a href="mentions-legales.html">Mentions légales</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <span>© 2026 Miss Voli</span>
+  </div>
+</footer>
+
+<div class="mv-mobilebar">
+  <a href="tel:+33762264963" class="mv-mobilebar__btn">Appeler</a>
+  <a href="https://wa.me/33762264963?text=Bonjour%20Miss%20Voli%2C%20je%20vous%20%C3%A9cris%20depuis%20votre%20site." class="mv-mobilebar__btn mv-mobilebar__btn--whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<div class="mv-whatsapp" id="mv-whatsapp">
+  <div class="mv-whatsapp__bubble" id="mv-whatsapp-bubble" hidden>
+    <button class="mv-whatsapp__close" id="mv-whatsapp-close" aria-label="Fermer la bulle">×</button>
+    Une question&nbsp;? Écrivez-moi
+  </div>
+  <a href="https://wa.me/33762264963?text=Bonjour%20Miss%20Voli%2C%20je%20vous%20%C3%A9cris%20depuis%20votre%20site." target="_blank" rel="noopener" aria-label="Écrire à Miss Voli sur WhatsApp" class="mv-whatsapp__btn">
+    <svg viewBox="0 0 24 24" fill="#FBF2DF" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.42-1.35a9.86 9.86 0 0 0 4.62 1.15h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.3-1.94 1.36-.5.06-1.14.09-1.83-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2.01.89 2.16.07.15.12.32.02.51-.1.19-.15.31-.3.48-.14.16-.31.36-.44.49-.14.14-.29.29-.13.58.17.29.75 1.24 1.62 2.02 1.11 1 2.05 1.31 2.34 1.46.29.15.46.13.63-.05.17-.19.72-.83.91-1.12.19-.29.39-.24.65-.14.27.1 1.68.79 1.97.93.29.15.48.22.55.34.07.13.07.72-.17 1.4z"/></svg>
+  </a>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

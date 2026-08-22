@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page non trouvée — Miss Voli</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .mv-404{background:var(--creme);color:#111111;padding:64px 0 96px}
+  .mv-404__inner{max-width:1160px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+  .mv-404__tag{display:inline-flex;align-items:center;gap:8px;font-family:"DM Sans",sans-serif;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#D73E23;margin-bottom:24px}
+  .mv-404__tag::before{content:"";width:20px;height:1px;background:#D73E23}
+  .mv-404__num{font-family:"Fredoka",sans-serif;font-weight:700;font-size:clamp(96px,16vw,180px);line-height:0.85;margin:0;color:#111111}
+  .mv-404__headline{font-family:"Fredoka",sans-serif;font-weight:600;font-size:clamp(26px,3vw,34px);line-height:1.25;margin:16px 0 20px;max-width:480px}
+  .mv-404__lines{font-family:"DM Sans",sans-serif;font-size:17px;line-height:1.7;color:#3a3a3a;margin:0 0 32px}
+  .mv-404__lines span{display:block}
+  .mv-404__cta{display:inline-flex;align-items:center;gap:10px;font-family:"DM Sans",sans-serif;font-weight:700;font-size:15px;color:#111111;text-decoration:none;padding:14px 24px;border-radius:999px;border:1.5px solid #111111;transition:background .2s cubic-bezier(.2,.7,.3,1),color .2s cubic-bezier(.2,.7,.3,1),border-color .2s cubic-bezier(.2,.7,.3,1)}
+  .mv-404__cta:hover{background:#D73E23;border-color:#D73E23;color:#fff}
+  .mv-404__cta:hover .mv-404__arrow{transform:translateX(-4px)}
+  .mv-404__arrow{transition:transform .2s cubic-bezier(.2,.7,.3,1)}
+  .mv-404__visual{position:relative;display:flex;align-items:center;justify-content:center}
+  .mv-404__trophy-wrap{position:relative;width:100%;max-width:420px}
+  .mv-404__trophy{width:100%;height:auto;display:block;transform:rotate(-2deg);transition:transform .3s cubic-bezier(.2,.7,.3,1)}
+  .mv-404__trophy-wrap:hover .mv-404__trophy{transform:rotate(0deg) scale(1.02)}
+  .mv-404__label{position:absolute;font-family:"DM Sans",sans-serif;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#111111}
+  .mv-404__label--secret{top:-8px;right:8px;writing-mode:vertical-rl;color:#D73E23}
+  .mv-404__label--here{bottom:-28px;left:0;display:flex;align-items:center;gap:8px}
+  .mv-404__label--here::before{content:"";width:6px;height:6px;border-radius:50%;background:#D73E23}
+  .mv-404__connector{position:absolute;left:-32px;top:50%;width:32px;height:1px;background:#D73E23;display:none}
+  @media (min-width: 900px){ .mv-404__connector{display:block} }
+  @media (max-width: 899px){
+    .mv-404__inner{grid-template-columns:1fr;gap:40px;text-align:left}
+    .mv-404__visual{order:2;margin-top:8px}
+    .mv-404__trophy-wrap{max-width:280px}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .mv-404__trophy,.mv-404__cta,.mv-404__arrow{transition:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="mv-header">
+  <div class="mv-header__inner">
+    <a href="index.html" class="mv-logo" aria-label="Miss Voli, accueil">
+      <img src="img/pins/miss-voli.png" alt="" width="36" height="36">
+      <span>Miss Voli</span>
+    </a>
+    <nav class="mv-nav" id="mv-nav" aria-label="Navigation principale">
+      <a href="cours-en-groupe.html">Cours en groupe</a>
+      <a href="cours-particuliers.html">Cours particuliers</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="mv-header__actions">
+      <a href="contact.html" class="mv-btn mv-btn--primary mv-btn--sm">Réserver une séance d'essai</a>
+      <button class="mv-burger" id="mv-burger" aria-expanded="false" aria-controls="mv-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="mv-404">
+  <div class="mv-404__inner">
+    <div>
+      <span class="mv-404__tag">404 / secret place</span>
+      <p class="mv-404__num">404</p>
+      <h1 class="mv-404__headline">Félicitations. Vous avez trouvé une page qui n'existe pas.</h1>
+      <p class="mv-404__lines">
+        <span>C'est rare.</span>
+        <span>C'est inutile.</span>
+        <span>Mais c'est assez cool.</span>
+      </p>
+      <a href="index.html" class="mv-404__cta"><span class="mv-404__arrow" aria-hidden="true">←</span>Retourner dans le monde réel</a>
+    </div>
+    <div class="mv-404__visual">
+      <div class="mv-404__trophy-wrap">
+        <span class="mv-404__connector" aria-hidden="true"></span>
+        <span class="mv-404__label mv-404__label--secret">Secret place</span>
+        <img class="mv-404__trophy" src="img/trophee-404.png" alt="Trophée « 404, Secret Place » : une coupe rouge et noire avec une petite porte à trou de serrure, posée sur un bureau parmi cartes postales, carnets et jetons de lettres." width="928" height="1141">
+        <span class="mv-404__label mv-404__label--here">404 · you are here</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="mv-footer">
+  <div class="mv-footer__inner container">
+    <div class="mv-footer__col">
+      <div class="mv-logo mv-logo--white"><img src="img/pins/miss-voli.png" width="32" height="32" alt=""><span>Miss Voli</span></div>
+      <p style="font-size:15px;display:flex;align-items:center;gap:6px"><img src="img/pins/lyon.png" alt="" width="28" height="28">Coach d'anglais certifiée TEFL à Lyon et en visio</p>
+    </div>
+    <div class="mv-footer__col">
+      <h4>Cours</h4>
+      <a href="cours-en-groupe.html">Cours en groupe</a>
+      <a href="cours-particuliers.html">Cours particuliers</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="ados.html">Collégiens et lycéens</a>
+      <a href="a-propos.html">À propos</a>
+    </div>
+    <div class="mv-footer__col">
+      <h4>Contact</h4>
+      <a href="mailto:hello@missvoli.com">hello@missvoli.com</a>
+      <a href="tel:+33762264963">07 62 26 49 63</a>
+    </div>
+    <div class="mv-footer__col">
+      <h4>Ce que je propose</h4>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/dialogues.png" alt="" width="28" height="28">Des cours vivants, pratiques et efficaces</p>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/cinema.png" alt="" width="28" height="28">Pop culture, conversations et situations réelles</p>
+      <p style="font-size:15px;display:flex;align-items:center;gap:8px;margin:0"><img src="img/pins/globe-trotter.png" alt="" width="28" height="28">Pour voyageurs, étudiants et professionnels</p>
+    </div>
+  </div>
+  <div class="mv-footer__bottom container">
+    <a href="mentions-legales.html">Mentions légales</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <span>© 2026 Miss Voli</span>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
